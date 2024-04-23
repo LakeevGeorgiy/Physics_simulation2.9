@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Задание после лекции</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <h1>Амплитудная модуляции сигнала</h1>
+    <div>
+        <label>Частота несущего колебания, Гц<label> 
+        <input value="100" class="input input-1" type="number" id="input_frequency_id">
+    </div>
+    <div>
+        <label>Частота информационного сигнала, Гц</label>
+        <input value="10" class="input input-2" type="number" id="information_frequency_id"/>
+    </div>
+    <div>
+        <label>Коэффициент модуляции, B</label>
+        <input value="5" class="input input-3" type="number" id="amplitude_id" />
+    </div>
+    <div>
+        <button id="button_id">Построить</button>
+    </div>
+    <div id="tester1"></div>
+    <div id="tester2"></div>
+    <div id="tester3"></div>
+    <div id="tester4"></div>
+    <div id="tester5"></div>
+    <div id="tester6"></div>
+
+    <script src="https://cdn.plot.ly/plotly-2.29.1.min.js" charset="utf-8"></script>
+    <script src="main.js"></script>
+</body>
+</html>
