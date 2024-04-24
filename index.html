@@ -9,16 +9,20 @@
 <body>
     <h1>Амплитудная модуляции сигнала</h1>
     <div>
-        <label>Частота несущего колебания, Гц<label> 
+        <label>Частота несущего колебания, рад/c<label> 
         <input value="100" class="input input-1" type="number" id="input_frequency_id">
     </div>
     <div>
-        <label>Частота информационного сигнала, Гц</label>
+        <label>Частота информационного сигнала, рад/c</label>
         <input value="10" class="input input-2" type="number" id="information_frequency_id"/>
     </div>
     <div>
-        <label>Коэффициент модуляции, B</label>
-        <input value="5" class="input input-3" type="number" id="amplitude_id" />
+        <label>Амплитуда несущего сигнала, B</label>
+        <input value="10" class="input input-3" type="number" id="input_amplitude_id" />
+    </div>
+    <div>
+        <label>Амплитуда информационного сигнала, B</label>
+        <input value="5" class="input input-4" type="number" id="information_amplitude_id" />
     </div>
     <div>
         <button id="button_id">Построить</button>
